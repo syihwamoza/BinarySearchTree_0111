@@ -37,6 +37,8 @@ public:
         Node* parent = NULL;
         Node* currentNode = NULL;
         serach(element, parent, currentNode);
+
+        if (parent == NULL)
     }
 };
 
