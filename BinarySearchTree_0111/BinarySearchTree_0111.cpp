@@ -30,6 +30,7 @@ public:
     void insert(string element)
     {
         Node* newNode = new Node(element, NULL, NULL);
+        newNode->info = element;
     }
 };
 
