@@ -17,6 +17,17 @@ public:
     }
 };
 
+class BinaryTree
+{
+public:
+    Node* ROOT;
+
+    BinaryTree()
+    {
+        ROOT = NULL; 
+    }
+};
+
 int main()
 {
     std::cout << "Hello World!\n";
